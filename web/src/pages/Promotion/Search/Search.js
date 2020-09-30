@@ -1,20 +1,15 @@
 import React from 'react';
 import PromotionSearch from 'components/Promotion/Search/Search';
+import UIContainer from 'components/UI/Container/Container';
 
 
 
 const PagesPromotionSearch = () => {
-   
     return (
-        <div 
-            style={{
-                maxWidth: 800,
-                margin: '30px auto',
-            }}
-        >
+        <UIContainer>
             <PromotionSearch />
-        </div>
-      );
+        </UIContainer>
+    );
 };
 
 export  default PagesPromotionSearch ;
