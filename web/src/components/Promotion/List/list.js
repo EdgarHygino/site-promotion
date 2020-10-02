@@ -1,6 +1,5 @@
 import React from 'react';
 import PromotionCard from '../Card/Card';
-import PromotionSearch from '../Search/Search';
 import './list.css';
 
 const PromotionList = ({ loanding, promotions }) => {
